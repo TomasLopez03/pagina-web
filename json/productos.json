@@ -1,0 +1,142 @@
+[
+    {
+        "titulo": "Camiseta de Algodón Básica",
+        "precio": 19.99,
+        "descripcion": "Camiseta de algodón 100%, cómoda y disponible en varios colores.",
+        "imagen": "imagenes/remera.jpg",
+        "categoria": "Ropa"
+    },
+    {
+        "titulo": "Pantalón Deportivo Nike",
+        "precio": 39.99,
+        "descripcion": "Pantalón deportivo de corte ajustado, ideal para entrenamientos o uso diario.",
+        "imagen": "imagenes/short.png",
+        "categoria": "Ropa"
+    },
+    {
+        "titulo": "Chaqueta de Invierno Patagonia",
+        "precio": 129.99,
+        "descripcion": "Chaqueta impermeable y transpirable, perfecta para el frío extremo.",
+        "imagen": "imagenes/campera_invierno.jpg",
+        "categoria": "Ropa"
+    },
+    {
+        "titulo": "Vestido de Verano Floral",
+        "precio": 49.99,
+        "descripcion": "Vestido ligero de verano con estampado floral, ideal para días cálidos.",
+        "imagen": "imagenes/vestido_floral.png",
+        "categoria": "Ropa"
+    },
+    {
+        "titulo": "Sudadera con Capucha Adidas",
+        "precio": 59.99,
+        "descripcion": "Sudadera cómoda con capucha y el logotipo de Adidas, perfecta para cualquier ocasión.",
+        "imagen": "imagenes/buzo.jpg",
+        "categoria": "Ropa"
+    },
+    {
+        "titulo": "Smartphone Samsung Galaxy S22",
+        "precio": 899.99,
+        "descripcion": "Smartphone con pantalla AMOLED de 6.5 pulgadas, cámara de 50 MP y 128 GB de almacenamiento.",
+        "imagen": "imagenes/celular.jpg",
+        "categoria": "Electrónica"
+    },
+    {
+        "titulo": "Auriculares Sony WH-1000XM5",
+        "precio": 349.99,
+        "descripcion": "Auriculares con cancelación de ruido, hasta 30 horas de batería y sonido de alta calidad.",
+        "imagen": "imagenes/auricular.jpg",
+        "categoria": "Electrónica"
+    },
+    {
+        "titulo": "Laptop HP Pavilion 15",
+        "precio": 749.99,
+        "descripcion": "Laptop de 15.6 pulgadas con procesador Intel Core i7, 16 GB de RAM y 512 GB SSD.",
+        "imagen": "imagenes/laptop.jpg",
+        "categoria": "Electrónica"
+    },
+    {
+        "titulo": "Televisor LG OLED 55''",
+        "precio": 1399.99,
+        "descripcion": "Televisor OLED 4K con tecnología de imagen avanzada y sonido Dolby Atmos.",
+        "imagen": "imagenes/televisor.jpg",
+        "categoria": "Electrónica"
+    },
+    {
+        "titulo": "Cámara de Seguridad Arlo Pro 4",
+        "precio": 199.99,
+        "descripcion": "Cámara de seguridad inalámbrica con visión nocturna, detección de movimiento y audio bidireccional.",
+        "imagen": "imagenes/camara_seg.jpg",
+        "categoria": "Electrónica"
+    },
+    {
+        "titulo": "Zapatillas Deportivas Puma RS-X",
+        "precio": 89.99,
+        "descripcion": "Zapatillas deportivas de diseño moderno, cómodas para hacer ejercicio o usarlas casualmente.",
+        "imagen": "imagenes/zapatilla_rsX.jpg",
+        "categoria": "Zapatos"
+    },
+    {
+        "titulo": "Botas de Cuero Timberland",
+        "precio": 159.99,
+        "descripcion": "Botas de cuero duraderas, ideales para caminar en terrenos difíciles y climas fríos.",
+        "imagen": "imagenes/botas.jpg",
+        "categoria": "Zapatos"
+    },
+    {
+        "titulo": "Sandalias Crocs Classic",
+        "precio": 34.99,
+        "descripcion": "Sandalias cómodas y resistentes al agua, perfectas para climas cálidos y actividades al aire libre.",
+        "imagen": "imagenes/crocs.jpg",
+        "categoria": "Zapatos"
+    },
+    {
+        "titulo": "Zapatillas Converse Chuck Taylor",
+        "precio": 59.99,
+        "descripcion": "Zapatillas clásicas de lona con diseño atemporal y suela de goma antideslizante.",
+        "imagen": "imagenes/converse.jpg",
+        "categoria": "Zapatos"
+    },
+    {
+        "titulo": "Zapatillas Running Nike Air Zoom",
+        "precio": 119.99,
+        "descripcion": "Zapatillas deportivas diseñadas para correr, con tecnología Zoom Air para mayor amortiguación.",
+        "imagen": "imagenes/zapa_nike.jpg",
+        "categoria": "Zapatos"
+    },
+    {
+        "titulo": "Sofa Cama Ikea Ektorp",
+        "precio": 499.99,
+        "descripcion": "Sofá cama cómodo con estructura de madera, ideal para espacios pequeños.",
+        "imagen": "imagenes/sillon.jpg",
+        "categoria": "Muebles"
+    },
+    {
+        "titulo": "Mesa de Comedor Moderna",
+        "precio": 299.99,
+        "descripcion": "Mesa de comedor con diseño minimalista, ideal para 4 personas, con acabado en madera oscura.",
+        "imagen": "imagenes/mesa_comedor.jpg",
+        "categoria": "Muebles"
+    },
+    {
+        "titulo": "Silla de Oficina Ergonomica",
+        "precio": 129.99,
+        "descripcion": "Silla ergonómica con soporte lumbar ajustable, perfecta para largas jornadas de trabajo.",
+        "imagen": "imagenes/silla.jpg",
+        "categoria": "Muebles"
+    },
+    {
+        "titulo": "Estantería de Madera Simple",
+        "precio": 69.99,
+        "descripcion": "Estantería de madera para almacenamiento, fácil de montar y perfecta para cualquier habitación.",
+        "imagen": "imagenes/estante.jpg",
+        "categoria": "Muebles"
+    },
+    {
+        "titulo": "Lámpara de Pie Moderna",
+        "precio": 59.99,
+        "descripcion": "Lámpara de pie con diseño elegante, ideal para agregar estilo a tu sala de estar o oficina.",
+        "imagen": "imagenes/lampara.jpg",
+        "categoria": "Muebles"
+    }
+]
