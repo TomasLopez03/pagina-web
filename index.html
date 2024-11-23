@@ -3,71 +3,66 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Mi tienda</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!-- <div class="conteiner">
-        <input type="text" id="searchInput" placeholder="Ingrese el nombre">
-        <button id="searchButton">Buscar</button>
-        <div id="results"></div>
-    </div> -->
     <header>
         <nav>
             <ul>
                 <li><a href="#home">Inicio</a></li>
-                <li><a href="#About"></a>Acerca de</li>
-                <li><a href="#Contact"></a>Contacto</li>
+                <li><a href="#productos">Productos</a></li>
+                <li><a href="#contact">Contacto</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <section id = "Inicio">
-            <h2>Bienvenido</h2>
-            <p>Informacion sobre la pagina</p>
+        <section id = "home">
+            <h2>Bienvenido a nuestra tienda virtual</h2>
+            <h3>En esta tienda podra encontrar productos de distintos tipos,<br>
+                de electronica, ropa, zapatos y muebles</h3>
         </section>
-        <section id="about">
-            <h2>acerca de</h2>
-            <ul>
-                <li>
-                    <div class="cartas">
-                        <img src="botellita.jpg" class="imagen">
-                        <p>$70</p>
-                    </div>
-                </li>
-                <li>
-                    <div class="cartas">
-                        <img src="botellita.jpg" class="imagen">
-                        <p>$70</p>
-                    </div>
-                </li>
-                <li>
-                    <div class="cartas">
-                        <img src="botellita.jpg" class="imagen">
-                        <p>$70</p>
-                    </div>
-                </li>
-                <li>
-                    <div class="cartas">
-                        <img src="botellita.jpg" class="imagen">
-                        <p>$70</p>
-                    </div>
-                </li>
-                <li>
-                    <div class="cartas">
-                        <img src="botellita.jpg" class="imagen">
-                        <p>$70</p>
-                    </div>
-                </li>
-            </ul>
+        <section id="productos">
+            <h2>Productos</h2>
+            <h3>Categorias</h3>
+            <div class="buttons">
+                <button data-categoria="Ropa">Ropa</button>
+                <button data-categoria="Electrónica">Electronica</button>
+                <button data-categoria="Zapatos">Zapatos</button>
+                <button data-categoria="Muebles">Muebles</button>
+            </div>
+            <div id="result"></div>
+            <div id="modal" class="modal">
+                <span class="close">&times;</span>
+                <div id="detalles"></div>
+            </div>
         </section>
         <section id="contact">
-            <h2>Contactos</h2>
+            <h2>Contacto</h2>
+            <div class="conteiner">
+                <div class="form-conteiner">
+                    <form action="tomasgalobu@gmail.com" method="post">
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" name="nombre" id="nombre" required>
+                        <br>
+                        <label for="email">Email:</label>
+                        <input type="email" name="email" id="email" required>
+                        <br>
+                        <label for="mensaje">Mensaje:</label>
+                        <textarea name="mensaje" id="mensaje" rows="5" cols="50" required></textarea>
+                        <br>
+                        <button type="submit">Enviar</button>
+                    </form>
+                </div>
+            </div>
         </section>
     </main>
     <footer>
         <p>&copy; Lopez, Robles, Navarro </p>
     </footer>
-    <script src="script.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>
